@@ -84,7 +84,53 @@ body{
         height: 500px;
         margin-top: 48px;
 }
+/* welcome styles */
+.welcome-section {
+    width: 1320px;
+    height: 600px;
+    
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(images/Vectorrr.png);
+    background-blend-mode: overlay;
+    display: flex;
+}
 
+.welcome-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    margin-left: 126px;
+    margin-top: 126px;
+}
+.welcome-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 126px;
+    padding-top:24px ;
+    padding-bottom: 48px;
+   
+}
+.join{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left:  158px ;
+   
+}
+.welcome-year-img {
+    width: 349.16px;
+    height: 464.65px;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    margin-top: 100px;
+    margin-left: 100px;
+}
 
 
 
