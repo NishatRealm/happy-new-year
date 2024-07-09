@@ -137,14 +137,14 @@ body{
     width: 1320px;
     height: 600px;
     margin: 0 auto;
-    border: 2px solid red; 
+    border: 2px solid white;
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
     margin-top: 90px;
- 
+
 }
 .venue-content {
-   
+
     display: block;
    justify-content: center;
    align-items: center;
@@ -152,6 +152,7 @@ body{
    margin-left: 400px;
    width: 549px;
    height: 168px;
+  
 }
 .button {
     color: rgb(255, 255, 255);
@@ -164,11 +165,17 @@ body{
     padding: 10px;
     margin-left: 200px;
     margin-top: 50px;
-    
+
 }
 /* shared style */
 .text-primary{
     color: rgb(255, 0, 0);
+}
+.text-secondery{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 }
 .venue-description {
     font-family: Inter;
@@ -176,10 +183,74 @@ body{
     font-weight: 600; 
     text-align: center;
     line-height: 56px;
+    
+}
+/* offer styles */
+.offers-container {
+    width: 1320px;
+    height: 500px;
+    
+    margin: 0 auto;
+    margin-top: 90px; 
+    display: flex;
+   justify-content: space-between;
+    align-content: space-between;
 }
 
+/* offer contents */
+.left-offer {
+    width: 33%;
+    
+    width: 440px;
+    height: 300px;
+    margin-top: 104px;
+    margin-bottom: 104px;
+   
+}
+.mid-offer {
+    width: 33%;
+    width: 440px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.right-offer {
+    width: 33%;
+    width: 440px;
+    height: 300px;
+    margin-top: 104px;
+    margin-bottom: 104px;
+    
+    
+}
+.left-offer h1{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.left-offer h3 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 20px;
+   
+}
+.ellipse-1 {
+    padding: 20px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
 
-
-
-
-
+.right-offer h3 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 10px;
+}
+.new-year {
+   margin-top: 20px;
+}
